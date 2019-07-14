@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Sort">
+      <UniqueIdentifier>{c6b1b1b3-86c2-4a6e-8db1-5a0cbeb92491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Sort">
+      <UniqueIdentifier>{2f043073-0758-463c-bc3b-7f918a129e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Scan">
+      <UniqueIdentifier>{0aca88d9-f538-43b9-8b88-ba87a64e1ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Scan">
+      <UniqueIdentifier>{bb83531f-2971-4bf8-a986-58ae9af46ffc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Исходные файлы\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="insertSort.cpp">
+      <Filter>Исходные файлы\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>Исходные файлы\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="scan.cpp">
+      <Filter>Исходные файлы\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="angle.cpp">
+      <Filter>Исходные файлы\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="min.cpp">
+      <Filter>Исходные файлы\Sort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Файлы заголовков\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="insertSort.h">
+      <Filter>Файлы заголовков\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="quickSort.h">
+      <Filter>Файлы заголовков\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>Файлы заголовков\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="angle.h">
+      <Filter>Файлы заголовков\Scan</Filter>
+    </ClInclude>
+    <ClInclude Include="min.h">
+      <Filter>Файлы заголовков\Sort</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
